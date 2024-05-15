@@ -1,0 +1,2 @@
+if (obj_player.state != states.mach3 && obj_player.state != states.climbwall && obj_player.state != 8 && obj_player.state != 94 && obj_player.state != states.mach2 && obj_player.state != states.handstandjump && obj_player.state != states.machslide && obj_player.state != states.slam && obj_player.state != 34 && obj_player.state != states.machfreefall && obj_player.state != states.superslam && obj_player.state != states.machroll && obj_player.state != states.chainsaw && obj_player.state != states.Sjump)
+    instance_destroy()

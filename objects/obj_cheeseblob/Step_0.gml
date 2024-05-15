@@ -1,0 +1,15 @@
+if (grounded || scr_solid((x + 1), y) || scr_solid((x - 1), y))
+{
+    instance_create(x, (y + 20), obj_slimedebris)
+    instance_create(x, (y + 20), obj_slimedebris)
+    instance_create(x, (y + 20), obj_slimedebris)
+    instance_create(x, (y + 20), obj_slimedebris)
+    instance_create(x, (y + 20), obj_slimedebris)
+    instance_create(x, (y + 20), obj_slimedebris)
+    instance_create(x, (y + 20), obj_slimedebris)
+    instance_create(x, (y + 20), obj_slimedebris)
+    if (!audio_is_playing(sfx_suplexdash))
+        scr_soundeffect(sfx_suplexdash)
+    instance_destroy()
+}
+scr_collide()
